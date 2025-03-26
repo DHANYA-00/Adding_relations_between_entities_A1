@@ -1,5 +1,6 @@
 import React from "react"
 import DestinationCard from "./component/DestinationCard";
+import '../src/App.css'
 
 const destinations = [
   {
