@@ -41,6 +41,7 @@ const destinations = [
 function App() {
   return (
     <div className="Data">
+      <h2>Top Travel Destinations</h2>
       {
         destinations.map((item,index)=>(
           <DestinationCard key={item.id} name={item.name} location={item.location} image={item.image} description={item.description} price={item.price}/>
